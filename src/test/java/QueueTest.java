@@ -25,4 +25,13 @@ public class QueueTest {
         int actual = queue.countQueue();
         assertEquals("Queue is not one", expected, actual);
     }
+
+    @Test
+    public void whenEnqueueTwinTimeThenCountQueueIsReturnTwo() {
+        int expected = 2;
+        queue.enQueue("A");
+        queue.enQueue("B");
+        int actual = queue.countQueue();
+        assertEquals("Queue is not Two", expected, actual);
+    }
 }

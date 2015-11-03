@@ -1,0 +1,6 @@
+# Built application files
+/*/build/
+build/
+.build
+target/
+.idea/

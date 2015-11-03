@@ -12,4 +12,8 @@ public class Queue {
     public void enQueue(String customer) {
         count++;
     }
+
+    public int countQueue() {
+        return 1;
+    }
 }

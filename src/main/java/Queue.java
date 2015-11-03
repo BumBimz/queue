@@ -14,9 +14,6 @@ public class Queue {
     }
 
     public int countQueue() {
-        if (count == 2){
-            return 2;
-        }
-        return 1;
+        return count;
     }
 }

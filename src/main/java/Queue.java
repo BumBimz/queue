@@ -16,4 +16,8 @@ public class Queue {
     public int countQueue() {
         return count;
     }
+
+    public String showQueue() {
+        return "A";
+    }
 }

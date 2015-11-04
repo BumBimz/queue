@@ -34,4 +34,12 @@ public class QueueTest {
         int actual = queue.countQueue();
         assertEquals("Queue is not Two", expected, actual);
     }
+
+    @Test
+    public void whenEnqueueCustomerAThenShowQueueIsReturnCustomerA() {
+        String expected = "A";
+        queue.enQueue("A");
+        String actual = queue.showQueue();
+        assertEquals("Queue is not have Customer A", expected, actual);
+    }
 }
